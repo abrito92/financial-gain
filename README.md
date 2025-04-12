@@ -10,9 +10,9 @@ This projects implements a CLI program that calculates the tax to be paid on gai
 
 ## Architecture
 
-The project is designed to be simple and yet comply with the best practices of OOP. Therefore, the project has a pseudo DDD architecture, with an Application layer and Domain layer.
+The project is designed to be simple and yet comply with most of the best practices of OOP. Therefore, the project has a pseudo DDD architecture, with an Application layer and Domain layer, plus a few helper classes.
 
-The reasoning behind this is to keep the maintenability of the code easier and simpler to understand and at the same time, avoid creating an overcomplicated structure for a small project like this one. With that in mind, a few changes where made to the concept, for example:
+The reasoning behind this is to keep the maintenability of the code easier and simpler to understand and, at the same time, avoid creating an overcomplicated structure for a small project like this one. With that in mind, a few changes where made to the concept, for example:
 
 - The project layers are inside just one project, ideally if we were to create layers we would create new projects for each layer and keep them completely separated, however the idea here is to keep as simple as possible.
 - The Domain class is not fully rich, however it follows it principle.  
@@ -36,13 +36,13 @@ To compile the project, one can either use an IDE configured for .NET 8. Or, hav
 1. Build
 
     ```bash
-    dotnet build "./nubank/Nubank/Nubank.csproj"
+    dotnet build "./financial-gain/src/financial_gain/financial_gain.csproj"
     ```
 
 2. Run
 
     ```bash
-    start "./nubank/Nubank/bin/Debug/net8.0/Nubank.exe"
+    start "./financial-gain/src/financial_gain/bin/Debug/net8.0/financial_gain.exe"
     ```
 
 Keep in mind that the paths used in the instructions are taking in consideration that you downloaded the project to a folder, for example, C:/Projects and have not navigated to the project folder, so you are in your "root" folder. The path you use to run the project may differ depending on where you are.
@@ -56,13 +56,13 @@ The project has both, integration and unit tests. To execute them through CLI, f
 1. Build
 
     ```bash
-    dotnet build "./nubank/Nubank.Tests/Nubank.Tests.csproj"
+    dotnet build "./financial-gain/src/financial_gain.Tests/financial_gain.Tests.csproj"
     ```
 
 2. Run
 
     ```bash
-    dotnet test "./nubank/Nubank.Tests/Nubank.Tests.csproj"
+    dotnet test "./financial-gain/src/financial_gain.Tests/financial_gain.Tests.csproj"
     ```
 
 Again, like the in the usage section, keep in mind of the paths used. Adjust if necessary.
