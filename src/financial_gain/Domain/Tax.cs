@@ -1,7 +1,10 @@
-﻿namespace financial_gain.Domain
+﻿using Newtonsoft.Json;
+
+namespace financial_gain.Domain
 {
     public class Tax
     {
-        public decimal tax { get; set; }
+        [JsonProperty("tax")]
+        public decimal TaxValue { get; set; }
     }
 }

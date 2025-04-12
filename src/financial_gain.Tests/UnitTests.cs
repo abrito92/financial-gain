@@ -25,9 +25,9 @@ namespace financial_gain.Tests
             };
             List<Tax> expectedTax = new List<Tax>
             {
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m }
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m }
             };
 
             // Act
@@ -53,9 +53,9 @@ namespace financial_gain.Tests
             };
             List<Tax> expectedTaxs = new List<Tax>
             {
-                new Tax { tax = 0.0m },
-                new Tax { tax = 10000.00m },
-                new Tax { tax = 0.0m }
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 10000.00m },
+                new Tax { TaxValue = 0.0m }
             };
 
             // Act
@@ -80,9 +80,9 @@ namespace financial_gain.Tests
             };
             List<Tax> expectedTaxs = new List<Tax>
             {
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 1000.00m }
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 1000.00m }
             };
 
             // Act
@@ -108,9 +108,9 @@ namespace financial_gain.Tests
             };
             List<Tax> expectedTaxs = new List<Tax>
             {
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m }
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m }
             };
 
             // Act
@@ -137,10 +137,10 @@ namespace financial_gain.Tests
             };
             List<Tax> expectedTaxs = new List<Tax>
             {
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 10000.00m }
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 10000.00m }
             };
 
             // Act
@@ -168,11 +168,11 @@ namespace financial_gain.Tests
             };
             List<Tax> expectedTaxs = new List<Tax>
             {
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 3000.00m }
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 3000.00m }
             };
 
             // Act
@@ -204,15 +204,15 @@ namespace financial_gain.Tests
             };
             List<Tax> expectedTaxs = new List<Tax>
             {
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 3000.00m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 3700.00m },
-                new Tax { tax = 0.0m }
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 3000.00m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 3700.00m },
+                new Tax { TaxValue = 0.0m }
             };
 
             // Act
@@ -239,10 +239,10 @@ namespace financial_gain.Tests
             };
             List<Tax> expectedTaxs = new List<Tax>
             {
-                new Tax { tax = 0.0m },
-                new Tax { tax = 80000.00m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 60000.00m }
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 80000.00m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 60000.00m }
             };
 
             // Act
@@ -273,14 +273,14 @@ namespace financial_gain.Tests
             };
             List<Tax> expectedTaxs = new List<Tax>
             {
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 0.0m },
-                new Tax { tax = 1000.00m },
-                new Tax { tax = 2400.00m }
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 0.0m },
+                new Tax { TaxValue = 1000.00m },
+                new Tax { TaxValue = 2400.00m }
             };
 
             // Act

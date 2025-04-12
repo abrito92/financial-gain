@@ -64,7 +64,7 @@ namespace financial_gain.Application
                     totalShareQuantity -= operation.Quantity;
                 }
 
-                taxs.Add(new Tax { tax = tax });
+                taxs.Add(new Tax { TaxValue = tax });
             }
 
             return taxs;
