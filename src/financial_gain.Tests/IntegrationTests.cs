@@ -14,7 +14,7 @@ namespace financial_gain.Tests
         {
             //  Adjust this path to the location of your compiled executable.
             //  This might need to change based on your build configuration (Debug/Release) and output path.
-            executablePath = "../../../../financial-gain/bin/Debug/net8.0/financial_gain.exe";
+            executablePath = "../../../../../src/financial_gain/bin/Debug/net8.0/financial_gain.exe";
 
             // Check if the executable exists
             if (!File.Exists(executablePath))
