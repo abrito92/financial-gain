@@ -23,7 +23,7 @@ Overall, the project keeps a slim footprint, with only a few classes and methods
 
 ## Framework and Libraries
 
-As a simple code, there isn't much in the way of libraries. The only one used here is the Newtonsoft for JSON operations. Everything else just uses native operations to the .NET ecosystem, which in fact was one of the reasons to chose the framework. It is a mature framework that has excelent performance and resource management, also, its compiled code is really efficient in terms of size.
+As a simple code, there isn't much in the way of libraries. The only one used here is the Newtonsoft for JSON operations. Everything else just uses native operations to the .NET ecosystem, which in fact was one of the reasons to chose the framework. It is a mature framework that has excelent performance and resource management, also, its compiled code is really efficient in terms of size. The version is .NET 8, the LTS version as of time of writing.
 
 For testing, the choice was NUnit. There isn't much difference in the .NET testing frameworks, they all work remarkably similar (in fact XUnit was created by people that worked on NUnit). In theory XUnit is more modern, as it was created later. However, they are pretty much equivalent and actively maintained. In the end is more personal preference, and to me it feels that NUnit was simpler to use in the scenarios i had.
 

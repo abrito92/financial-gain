@@ -1,7 +1,4 @@
-﻿using Newtonsoft.Json;
-using financial_gain.Domain;
-using System.Diagnostics;
-using System.Text.Json.Nodes;
+﻿using System.Diagnostics;
 
 namespace financial_gain.Tests
 {
