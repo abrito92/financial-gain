@@ -1,4 +1,4 @@
-# Code Chalenge: Ganho de Capital
+# Code Chalenge: Financial Gain
 
 ---
 
