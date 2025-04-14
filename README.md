@@ -42,7 +42,7 @@ To compile the project, one can either use an IDE configured for .NET 8. Or, hav
 2. Run
 
     ```bash
-    start "./financial-gain/src/financial_gain/bin/Debug/net8.0/financial_gain.exe"
+    dotnet "./financial-gain/src/financial_gain/bin/Debug/net8.0/financial_gain.dll"    
     ```
 
 Keep in mind that the paths used in the instructions are taking in consideration that you downloaded the project to a folder, for example, C:/Projects and have not navigated to the project folder, so you are in your "root" folder. The path you use to run the project may differ depending on where you are.
