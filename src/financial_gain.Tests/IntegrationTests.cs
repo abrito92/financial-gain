@@ -75,9 +75,10 @@ namespace financial_gain.Tests
 
             List<string> expectedOutput = new List<string>() { @"[{""tax"":0.0},{""tax"":0.0},{""tax"":0.0}]".Trim() };
 
-            var inputs = new List<string>();
-
-            inputs.Add(input);
+            var inputs = new List<string>
+            {
+                input
+            };
 
             // Act
             List<string> actualOutput = ExecuteProgram(inputs);
@@ -93,9 +94,10 @@ namespace financial_gain.Tests
 
             List<string> expectedOutput = new List<string>() { @"[{""tax"":0.0},{""tax"":10000.00},{""tax"":0.0}]".Trim() };
 
-            var inputs = new List<string>();
-
-            inputs.Add(input);
+            var inputs = new List<string>
+            {
+                input
+            };
 
             // Act
             List<string> actualOutput = ExecuteProgram(inputs);
@@ -116,11 +118,11 @@ namespace financial_gain.Tests
 
             List<string> expectedOutput = new List<string>() { @"[{""tax"":0.0},{""tax"":0.0},{""tax"":0.0}]", @"[{""tax"":0.0},{""tax"":10000.00},{""tax"":0.0}]" };
 
-            var inputs = new List<string>();
-
-            inputs.Add(firstInput);
-
-            inputs.Add(secondInput);
+            var inputs = new List<string>
+            {
+                firstInput,
+                secondInput
+            };
 
             // Act
             List<string> actualOutput = ExecuteProgram(inputs);
